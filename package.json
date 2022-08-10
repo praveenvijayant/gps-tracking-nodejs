@@ -4,11 +4,12 @@
   "description": "Let you work with some GPS trackers that connects through tcp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freshworkstudio/gps-tracking-nodejs.git"
+    "url": "git+https://github.com/freshworkstudio/gps-tracking-nodejs.git"
   },
   "keywords": [
     "gps",
@@ -26,6 +27,11 @@
   "dependencies": {
     "crc": "^3.5.0",
     "crc16-ccitt-node": "^1.0.6",
+    "gps-tracking": "^1.1.1",
     "node.extend": "^2.0.1"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }
